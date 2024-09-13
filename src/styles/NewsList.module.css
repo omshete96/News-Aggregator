@@ -1,0 +1,36 @@
+.newsContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .newsItem {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    transition: transform 0.2s;
+  }
+  
+  .newsItem img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .newsItem:hover {
+    transform: scale(1.05);
+  }
+  
+  .newsItem h2 {
+    font-size: 18px;
+  }
+  
+  .newsItem p {
+    font-size: 14px;
+  }
+  
+  .newsItem a {
+    color: blue;
+    text-decoration: underline;
+  }
+      
