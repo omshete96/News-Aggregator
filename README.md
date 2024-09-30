@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# News Aggregator
 
-## Getting Started
+## Description
+The **News Aggregator** is a web application that consolidates news articles from various sources into a single platform. Users can browse the latest news, filter articles by categories, and read summaries or full articles. This project aims to provide an efficient way to stay updated on current events from multiple news outlets.
 
-First, run the development server:
+## Features
+- 📰 **Article Aggregation**: Collects news articles from various sources using APIs or web scraping.
+- 🔍 **Search Functionality**: Allows users to search for articles based on keywords or categories.
+- 📂 **Category Filtering**: Users can filter news articles by categories such as Technology, Health, Sports, and more.
+- 📅 **Date Sorting**: Displays articles sorted by publication date, ensuring users see the latest news first.
+- 📱 **Responsive Design**: Provides a user-friendly interface that works well on both desktop and mobile devices.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Installation
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+To set up the project locally, follow these steps:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+bash
+# Clone the repository
+git clone https://github.com/omshete96/News-Aggregator.git
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Navigate to the project directory
+cd News-Aggregator
 
-## Learn More
+# Install dependencies (if applicable)
+npm install
 
-To learn more about Next.js, take a look at the following resources:
+# Start the application
+npm start
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Usage
+View News Articles: Upon starting the application, users will see a list of the latest articles aggregated from various sources.
+Search Articles: Users can use the search bar to find articles related to specific topics.
+Filter by Category: Select different categories to see news articles that match the chosen topic.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Technologies
+Backend: Node.js or Python (depending on your implementation)
+Frontend: HTML, CSS, JavaScript (or frameworks like React, Vue.js)
+Database: MongoDB or any database of your choice for storing user preferences and article data
+APIs: Utilizes third-party news APIs for fetching articles (e.g., NewsAPI)
