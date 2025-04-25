@@ -1,0 +1,15 @@
+/* styles/Navbar.module.css */
+.navbar {
+    background-color: black;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navbarBrand {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  

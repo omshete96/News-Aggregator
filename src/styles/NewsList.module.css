@@ -1,0 +1,55 @@
+/* Updated NewsList.module.css */
+.newsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.newsItem {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background: #fff;
+}
+
+.newsItem:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.newsItem img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.newsItem h2 {
+  font-size: 20px;
+  color: #333;
+}
+
+.newsItem p {
+  font-size: 16px;
+  color: #555;
+}
+
+.newsItem a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.newsItem a:hover {
+  text-decoration: underline;
+}
+
+/* Add responsiveness */
+@media (max-width: 768px) {
+  .newsContainer {
+      grid-template-columns: 1fr;
+  }
+}
