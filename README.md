@@ -10,24 +10,7 @@ The **News Aggregator** is a web application that consolidates news articles fro
 - 📅 **Date Sorting**: Displays articles sorted by publication date, ensuring users see the latest news first.
 - 📱 **Responsive Design**: Provides a user-friendly interface that works well on both desktop and mobile devices.
 
-## Installation
-
-To set up the project locally, follow these steps:
-
-bash
-# Clone the repository
-git clone https://github.com/omshete96/News-Aggregator.git
-
-# Navigate to the project directory
-cd News-Aggregator
-
-# Install dependencies (if applicable)
-npm install
-
-# Start the application
-npm start
-
-Usage
+## Usage
 View News Articles: Upon starting the application, users will see a list of the latest articles aggregated from various sources.
 Search Articles: Users can use the search bar to find articles related to specific topics.
 Filter by Category: Select different categories to see news articles that match the chosen topic.
