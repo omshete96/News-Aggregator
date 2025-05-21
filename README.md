@@ -1,8 +1,4 @@
 # News Aggregator
-
-## Description
-The **News Aggregator** is a web application that consolidates news articles from various sources into a single platform. Users can browse the latest news, filter articles by categories, and read summaries or full articles. This project aims to provide an efficient way to stay updated on current events from multiple news outlets.
-
 ## Features
 - 📰 **Article Aggregation**: Collects news articles from various sources using APIs or web scraping.
 - 🔍 **Search Functionality**: Allows users to search for articles based on keywords or categories.
